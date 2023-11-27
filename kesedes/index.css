@@ -4,6 +4,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    font: arial;
 }
 
 header {
@@ -11,6 +12,7 @@ header {
     width: 100%;
     height: 13vh;
     color: white;
+    box-shadow: 1px 2px 8px orangered;
 }
 
 header img {
@@ -29,7 +31,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(207, 207, 207);
     width: 30%;
     height: 50%;
     border-radius: 20px;
@@ -39,6 +41,7 @@ header img {
 .gerador input, button {
     padding: 10px;
     margin: 15px;
+    border-radius: 10px;
 }
 
 footer {
@@ -50,5 +53,12 @@ footer {
     position: fixed;
     width: 100%;
     height: 13vh;
-    text-align: center;
+    text-align: center; 
+}
+
+#CaioLindo{
+
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
